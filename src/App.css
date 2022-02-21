@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&family=Space+Mono:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Cuprum', sans-serif;
 }
 
 /* .App {
@@ -11,7 +14,7 @@
 .App-header {
   background-color: #282c34;
   width: 100%;
-  min-height: 10vh;
+  min-height: 8vh;
   display: flex;
   /* align-items: stretch; */
   /* justify-content: space-around; */
@@ -19,52 +22,160 @@
   color: white;
 }
 
-h3 {
+/* h3 {
   background-color: blueviolet;
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .List-items {
   background-color: brown;
-  width: 50%;
+  width: 100%;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-size: 36px;
 }
-
 
 .Container {
   width: 100%;
-  min-height: 80vh;
+  min-height: 84vh;
   display: flex;
   background-color: darkslategray;
 }
 
 .Left-container {
   background-color: darkorange;
-  width: 50%; 
+  width: 60%; 
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.Portfolio {
+.Portfolio1 {
+  background-color: powderblue;
+  width: 50%;
+
+}
+.Back1-img {
+  width: 100%;
+  height: 37vh;
+  border: 1px solid black;
+  background-image: url("../public/images/flipper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Port1-link {
+  /* background-color: azure; */
+  height: 3vh;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Port1-link a:link {
+  /* background-color: white; */
+  text-decoration: none;
+  /* border: 2px solid black;
+  border-radius: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.Portfolio2 {
+  background-color: powderblue;
+  width: 50%;
+}
+
+.Back2-img {
+  width: 100%;
+  height: 37vh;
+  border: 1px solid black;
+  background-image: url("../public/images/editor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Port2-link {
+  /* background-color: azure; */
+  height: 3vh;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Port2-link a:link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.Portfolio3 {
+  background-color: powderblue;
+  width: 50%;
+}
+
+.Back3-img {
+  height: 40vh;
+  border: 1px solid black;
+  background-image: url("../public/images/calculator.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Port3-link {
+  height: 3vh;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Port3-link a:link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.Portfolio4 {
   background-color: powderblue;
   width: 50%;
   height: 40vh;
   border: 1px solid black;
+  background-image: url("../public/images/flipper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   /* border-radius: 10px; */
   /* margin: 1px 1px 1px 1px; */
 }
 
 .Right-container {
   background-color: darkgreen;
-  width: 50%;
+  width: 40%;
   font-size: 24px;
+  
+}
+
+#Profile {
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#About-list {
+  margin-left: 10px;
 }
 
 .Footer-left {
@@ -135,7 +246,7 @@ h3 {
 .Footer {
   background-color: rgb(43, 2, 2);
   width: 100%;
-  min-height: 10vh;
+  min-height: 8vh;
   color: white;
   display: flex;
   justify-content: space-evenly;

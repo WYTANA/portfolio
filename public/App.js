@@ -59,14 +59,7 @@ function App() {
           <div className="Portfolio4">Project 4</div>
         </div>
         <div className="Right-container">
-          <img id="Profile" src="../images/profile.jpg" alt="Travis' profile pic" />
-          <ul id="About-list" >
-            <li>I'm a Junior Web Developer looking for opportunities in Web 3.0 or blockchain projects</li><br />
-            <li>I love to work from home and have a great office setup with privacy</li><br />
-            <li>I'm willing to work in a startup</li>
-            <li></li>
-            <li></li>
-          </ul>
+          <p>This is the right container. Talk about my accomplishments and goals. What am I looking for?</p>
         </div>
       </div>
       <div>
