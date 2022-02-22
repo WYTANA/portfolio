@@ -56,7 +56,12 @@ function App() {
               <a href="https://nervous-fermi-75fa67.netlify.app/" target="_blank" rel="noreferrer">Tip Calculator</a>
             </div>
           </div>
-          <div className="Portfolio4">Project 4</div>
+          <div className="Portfolio4">
+            <div className="Back4-img"></div>
+            <div className="Port4-link">
+              <a href="https://gifted-feynman-359308.netlify.app/" target="_blank" rel="noreferrer">My Profile Card</a>
+            </div>
+          </div>
         </div>
         <div className="Right-container">
           <img id="Profile" src="../images/profile.jpg" alt="Travis' profile pic" />
